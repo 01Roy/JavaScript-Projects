@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 100%;
+   display: grid;
+   place-items: center;
+}
+ .header {
+     margin: 20px;
+ }
+
+ .inputSection {
+   width: 90%;
+   display: grid;
+   place-items: center;
+ }
+ input{
+     width: 30%;
+     padding: 4px;
+     border-width: 0px 0px 2px 0px;
+ }
+ .addBtn {
+     margin: 10px;
+     padding: 5px;
+     border-radius: 5px;
+ }
+ .mainContainer1{
+     width: 70%;
+ }
+ .todoList {
+     width: 40%;
+     margin: auto;
+ }
+ li{
+    list-style-type: circle;
+    margin: 4px;
+     padding: 4px;
+     cursor: pointer;
+ }
+ .delBtn{
+  float: right;
+}

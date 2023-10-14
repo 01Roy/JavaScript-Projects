@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+.selection{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+    transition: 100ms;
+}
+.selection:hover{
+    transform: scale(1.2);
+}
+
+.result{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.result-socred{
+    margin-left: .1rem;
+}
+
+.result_selection{
+    opacity: .5;
+    font-size: 2rem;
+}
+
+.result_selection.winner{
+    opacity: 1;
+    font-size: 3rem;
+}

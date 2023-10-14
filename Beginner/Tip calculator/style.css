@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .header{
+    margin-top: 20px;
+ }
+ .inputCal{
+     margin-top: 20px;
+     width: 40%;
+     border: 1px solid #ac1818;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ label{
+     font-size: 20px;
+ }
+
+ input[type=text]{
+     font-size: 20px;
+ }
+
+ input[type=button]{
+     margin-bottom: 20px;
+ }
+ input[type=button]{
+     margin: 20px;
+     padding: 4px;
+     font-size: 20px;
+ }
+ .inputCal > div{
+     margin-top: 20px;
+ }
+ 

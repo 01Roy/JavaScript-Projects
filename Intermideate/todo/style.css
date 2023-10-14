@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .mainContainer{
+    
+} */
+ 
+ h1,h3 {
+     text-align: center;
+     margin: 10px;
+ }
+ .input_box {
+    display: grid;
+    place-items: center;
+ }
+ input{
+     width: 40%;
+     padding: 5px;
+     margin: 6px;
+     /* border: none; */
+     border-style: solid;
+     border-color: rgb(64, 230, 133);
+     border-width: 0px 0px 2px 0px;
+ }
+ .addListContainer{
+     width: 70%;
+     margin: auto;
+    display: grid;
+    place-items: center;
+ }
+ ul{
+    width: 50%;
+
+ }
+
+ li{
+    list-style-type: circle;
+    margin: 4px;
+     padding: 4px;
+ }
+ .delBtn{
+  float: right;
+}

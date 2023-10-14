@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2d2d2d;
+}
+
+.container{
+
+}
+ .counter_header{
+     margin-top: 20px;
+     color: #f7f7f7;
+     font-size: 24px;
+     text-align: center;
+ }
+ .counter_no{
+     margin: 40px;
+     text-align: center;
+     font-size: 40px;
+     color: #f7f7f7;
+ }
+ .btn_group{
+    margin: 40px;
+    text-align: center;
+ }
+ .btn_dec,.btn_inc,.btn_res{
+     margin: 10px;
+     padding: 10px;
+     font-size: 20px;
+ }

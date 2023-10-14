@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/427fae535c.js" crossorigin="anonymous"></script>
+    <title>Budget App</title>
+</head>
+
+<body>
+    <div class="mainContainer" id="mainContainer">
+        <!-- header -->
+        <div class="header" id="header">
+            <h2>BUDGET APP</h2>
+        </div>
+
+        <!-- main section -->
+        <div>
+            <div class="maincontainer1" id="mainContainer1">
+                <!-- input section -->
+                <div class="inputSection" id="inputSection">
+                    <div class="budget" id="budget">
+                        <h3>Please Enter Your Budget</h3>
+                        <input type="text" placeholder="Please enter amout " required><br>
+                        <button class="calcuLatebtn" id="calcuLatebtn">Calculate</button>
+                    </div>
+
+                    <div class="expense" id="expense">
+                        <h3>Please Enter Your Expense</h3>
+                        <input type="text" class="expenseName" id="expense" placeholder="Name of your expense">
+                        <h3>Please Enter Expense Amount</h3>
+                        <input type="text" class="expenseAmount" id="expense" placeholder="amount of your expense"><br>
+                        <button class="AddExpense" id="AddExpense">Add Expense</button>
+                    </div>
+                </div>
+                <!-- result section -->
+                <div class="mainresultSection" id="mainresultSection">
+                    <div class="resultSection" id="resultSection">
+                        <div class="budgetResult" id="budgetResult">
+                            <h3>BUDGET</h3>
+                            <div><i class="fa-solid fa-money-bill-1"></i></div>
+                            <p>$ <span>0</span></p>
+                        </div>
+                        <div class="expenseResult" id="expenseResult">
+                            <h3>EXPENSE</h3>
+                            <div><i class="fa-solid fa-credit-card"></i></div>
+                            <p>$ <span>0</span></p>
+                        </div>
+                        <div class="blanceResult" id="blanceResult">
+                            <h3>BALANCE</h3>
+                            <div><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                            <p>$ <span>0</span></p>
+                        </div>
+
+                    </div>
+                    <!-- expesese title -->
+                    <div class="mainexpenseTitle" id="mainexpenseTitle">
+                        <div class="expenseTitle" id="expensetitle">
+                            <h3>Expense Title</h3>
+                        </div>
+
+                        <div class="expenseValue" id="expenseValue">
+                            <h3>Expense Value</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
